@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio Marcia</title>
+  <link rel="stylesheet" href=estilo.css">
+</head>
+<body>
+
+  <header>
+<!--❖ Um link Sobre mim: que fale sobre você, hobbies etc;-->
+<a href="#aboutMe">Sobre mim</a>
+
+<!--❖ Um link sobre sua formação educacional, idiomas;-->
+<a href="#school">Formação</a>
+
+<!--❖ Um link com seu portfólio. Pode colocar links para outros sites que você
+tenha feito, ou com trabalhos que você tenha desenvolvido no curso em
+outras disciplinas. No decorrer da disciplina foram colocados exemplos
+de sites, você pode refazer esses exemplos e utilizar como portfólio.-->
+<a href="#github">Portifólio</a>
+
+<!--❖ Link para contato – fazer a parte visual do formulário. (utilizar inputs:
+nome, email, mensagem).-->
+<a href="#contact">Contato</a>
+  </header>
+
+  <h1>Marcia Yurie Yano</h1>
+  <h2>Desenvolvedora front-end</h2>
+
+
+<h3 id="aboutMe">Sobre mim</h3>
+<p>Paulista que ama musica pop, comidinhas e viagens culturais.</br>
+  Programando em html, css, e uns desafios da Ebac </br>
+  e nas horas vagas gosto de tocar teclado, ver vídeos de Dead by daylight.</p>
+
+<h3 id="school">Formação</h3>
+<p>análise e desenvolvimento de software - Uninter (final dez.2024) </br>
+  arquiteta - Faculdade Presbiteriana Mackenzie SP (2016)</p>
+
+<h3 id="github">Portifólio</h3>
+<a href="https://marciayano.github.io/CartorioEbac/" target="_blank"><img src="/image/proj1.jpg" alt="imagem projeto cartório ebac"></a>
+
+
+<h3 id="contact">Contato</h3>
+
+<form action="enviar.php" method="POST">
+
+  <fieldset>Entre em contato </br>
+  <label for="nome"> Nome: </label>
+  <input type="text" name="nome" value="" size="20"> </br>
+
+  <label for="email"> E-mail: </label>
+  <input type="email" name="email"  value="" size="20"> </br>
+
+  <label for="mensagem">Mensagem:</label>
+  <textarea name="message" rows="2" cols="20"></textarea> </br>
+    
+   <input name="Submit" type="submit" id="Submit" value="Enviar">
+   </fieldset>
+   </form>
+
+
+</body>
+</html>
