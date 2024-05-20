@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  
+}
+
+body{
+  width: 1000px;
+  height: 700px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-bottom: 0;
+  margin-right: auto;
+  text-align: center;
+
+}
+
+#fix-esq {
+  width: 400px;
+  height: calc(100vh - 50px);
+  float: left;
+}
+
+header{
+  text-align: center;
+  margin: 15px 25px 15px 25px;
+}
+
+.card{
+  background-color: rgb(178, 172, 180);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 5px;
+
+}
+
